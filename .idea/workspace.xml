@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6214f898-27b7-4094-aecd-dd10de9b4817" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="aaa" pattern="" />
+  </component>
+  <component name="ProjectId" id="1zEBD4KMtDvXqUz7Gz2uopfo2L7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utils" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\processor\action" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\utils" />
+      <recent name="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\data\comment" />
+      <recent name="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\processor" />
+      <recent name="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\model\main" />
+      <recent name="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\data\chrome" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CommentProcessor (1)">
+    <configuration name="CommentProcessor (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="commentFilter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processor/CommentProcessor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CommentProcessor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="commentFilter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\ThinkPad\Desktop\Python\pycharm\commentFilter\processor\CommentProcessor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="projectConfig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="commentFilter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/projectConfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="commentFilter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/idd3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/idd3/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="commentFilter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/idd3/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/idd3/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.projectConfig" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.CommentProcessor" />
+      <item itemvalue="Python.CommentProcessor (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CommentProcessor (1)" />
+        <item itemvalue="Python.CommentProcessor" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.projectConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6214f898-27b7-4094-aecd-dd10de9b4817" name="Default Changelist" comment="" />
+      <created>1633703244038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633703244038</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="134" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633765989171">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="134" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.768@0.0.1360.768" timestamp="1633765989171" />
+    <state x="421" y="192" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634219091383">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="421" y="192" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.768@0.0.1360.768" timestamp="1634219091383" />
+    <state x="267" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1634206076030">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="267" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.768@0.0.1360.768" timestamp="1634206076030" />
+    <state x="460" y="142" key="FileChooserDialogImpl" timestamp="1634199828881">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="460" y="142" key="FileChooserDialogImpl/0.0.1360.768@0.0.1360.768" timestamp="1634199828881" />
+    <state width="1339" height="148" key="GridCell.Tab.0.bottom" timestamp="1634219035559">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="148" key="GridCell.Tab.0.bottom/0.0.1360.768@0.0.1360.768" timestamp="1634219035559" />
+    <state width="1339" height="148" key="GridCell.Tab.0.center" timestamp="1634219035558">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="148" key="GridCell.Tab.0.center/0.0.1360.768@0.0.1360.768" timestamp="1634219035558" />
+    <state width="1339" height="148" key="GridCell.Tab.0.left" timestamp="1634219035558">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="148" key="GridCell.Tab.0.left/0.0.1360.768@0.0.1360.768" timestamp="1634219035558" />
+    <state width="1339" height="148" key="GridCell.Tab.0.right" timestamp="1634219035559">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="148" key="GridCell.Tab.0.right/0.0.1360.768@0.0.1360.768" timestamp="1634219035559" />
+    <state width="1339" height="193" key="GridCell.Tab.1.bottom" timestamp="1634218295552">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="193" key="GridCell.Tab.1.bottom/0.0.1360.768@0.0.1360.768" timestamp="1634218295552" />
+    <state width="1339" height="193" key="GridCell.Tab.1.center" timestamp="1634218295551">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="193" key="GridCell.Tab.1.center/0.0.1360.768@0.0.1360.768" timestamp="1634218295551" />
+    <state width="1339" height="193" key="GridCell.Tab.1.left" timestamp="1634218295551">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="193" key="GridCell.Tab.1.left/0.0.1360.768@0.0.1360.768" timestamp="1634218295551" />
+    <state width="1339" height="193" key="GridCell.Tab.1.right" timestamp="1634218295552">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="1339" height="193" key="GridCell.Tab.1.right/0.0.1360.768@0.0.1360.768" timestamp="1634218295552" />
+    <state width="688" height="392" key="XDebugger.FullValuePopup" timestamp="1634217402549">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state width="688" height="392" key="XDebugger.FullValuePopup/0.0.1360.768@0.0.1360.768" timestamp="1634217402549" />
+    <state x="367" y="139" width="626" height="490" key="find.popup" timestamp="1633937923507">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="367" y="139" width="626" height="490" key="find.popup/0.0.1360.768@0.0.1360.768" timestamp="1633937923507" />
+    <state x="272" y="46" key="scopes" timestamp="1634205950430">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="272" y="46" key="scopes/0.0.1360.768@0.0.1360.768" timestamp="1634205950430" />
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1634197218421">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1360.768@0.0.1360.768" timestamp="1634197218421" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/main/actionableClassifier.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/main/actionableClassifier2.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/main/actionableDisClassifier.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/nltk/parse/dependencygraph.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/stanfordcorenlp/corenlp.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/processor/action/CalDistributionAction.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="getattr(df.iloc[90], 'bodyText')" language="Python" />
+        <watch expression="getattr(df.iloc[123], 'bodyText')" language="Python" />
+        <watch expression="df[targetCol]" language="Python" />
+        <watch expression="__py_debug_temp_var_786800118" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

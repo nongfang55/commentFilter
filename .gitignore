@@ -1,0 +1,6 @@
+.ini
+/data/*
+**/__pycache__
+.settings/
+lib/*
+*.pyc
