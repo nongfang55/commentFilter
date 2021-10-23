@@ -19,4 +19,5 @@ class ActionPipe:
             return df
         for action in self.pipe:
             df = action.process(df)
+            print("action:", type(action), " shape:", df.shape)
         return df

@@ -3,7 +3,7 @@ import re
 import nltk
 
 from processor.action.BasicAction import BasicAction
-from processor.action.StringKeyUtils import StringKeyUtils
+from utils.StringKeyUtils import StringKeyUtils
 
 
 class TokenizeAction(BasicAction):

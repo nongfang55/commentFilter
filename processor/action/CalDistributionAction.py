@@ -1,5 +1,6 @@
 from processor.action.BasicAction import BasicAction
-from processor.action.StringKeyUtils import StringKeyUtils
+from utils.SingleDataAnalyzer import SingleDataAnalyzer
+from utils.StringKeyUtils import StringKeyUtils
 import pandas as pd
 
 from utils.ExcelHelper import ExcelHelper
@@ -36,11 +37,28 @@ class CalDistributionAction(BasicAction):
         disDict = self.processDistribution(disList)
         """输出一个DataFrame到一个excel"""
         self.writeResult(disDict)
+
+        """对这个数据做更加详尽的分析"""
+        """如果是连续的变量， 那么可以做进一步的分析"""
+        if self.valueType == StringKeyUtils.STR_VALUE_TYPE_CONTINUOUS:
+            self.analyzeResult(disDict)
+
         return df
+
+    def analyzeResult(self, df):
+        """对于之前的 dataframe 做更加进一步的分析"""
+        weights = list(df.columns[1:])
+        labels = list(df[self.groupKey])
+        datas = []
+        for index, label in enumerate(labels):
+            data = list(df.iloc[index])[1:]
+            datas.append(data)
+
+        SingleDataAnalyzer().process(weights=weights, nums=datas, labels=labels,
+                                     excelName=self.excelName, sheetName=f'f_{self.targetCol}')
 
     def processDistribution(self, disList):
         """收集到统计的分布，做统一, 生成一个DataFrame"""
-        disDf = None
         valueDict = {}
         cols = []
         if self.valueType == StringKeyUtils.STR_VALUE_TYPE_CONTINUOUS:

@@ -4,3 +4,4 @@
 .settings/
 lib/*
 *.pyc
+.idea/workspace.xml

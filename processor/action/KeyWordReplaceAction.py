@@ -1,7 +1,7 @@
 import re
 
 from processor.action.BasicAction import BasicAction
-from processor.action.StringKeyUtils import StringKeyUtils
+from utils.StringKeyUtils import StringKeyUtils
 
 
 class KeyWordReplaceAction(BasicAction):
@@ -28,10 +28,10 @@ class KeyWordReplaceAction(BasicAction):
                 self.kwargs[item] = True
 
         """用于存储正则的pattern"""
-        self.patternDict = {StringKeyUtils.STR_INDICATE_TALK: r'(^>[^\n\r]*\r\r\n)+',
+        self.patternDict = {StringKeyUtils.STR_INDICATE_TALK: r'(^>[^\n]*\n)+',
                             StringKeyUtils.STR_INDICATE_PIC: r'^!\[.*\]\(.*\)',
                             StringKeyUtils.STR_INDICATE_LINK: r'http[s]?://(?:[a-zA-Z]|[0-9]|[#$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',
-                            StringKeyUtils.STR_INDICATE_BLOCK: r'```[^`]*```',
+                            StringKeyUtils.STR_INDICATE_BLOCK: r'```.*?```',
                             StringKeyUtils.STR_INDICATE_ELEMENT: r'`[^`]+`',
                             StringKeyUtils.STR_INDICATE_AT: r'@[a-z0-9\-/]+'}
 
@@ -44,12 +44,13 @@ class KeyWordReplaceAction(BasicAction):
                          StringKeyUtils.STR_INDICATE_AT: re.I}
 
         """用于替换正则的单词"""
-        self.wordDict = {StringKeyUtils.STR_INDICATE_TALK: StringKeyUtils.STR_REPLACE_KEY_TALK,
-                         StringKeyUtils.STR_INDICATE_PIC: StringKeyUtils.STR_REPLACE_KEY_PIC,
-                         StringKeyUtils.STR_INDICATE_LINK: StringKeyUtils.STR_REPLACE_KEY_LINK,
-                         StringKeyUtils.STR_INDICATE_BLOCK: StringKeyUtils.STR_REPLACE_KEY_BLOCK,
-                         StringKeyUtils.STR_INDICATE_ELEMENT: StringKeyUtils.STR_REPLACE_KEY_ELEMENT,
-                         StringKeyUtils.STR_INDICATE_AT: StringKeyUtils.STR_REPLACE_KEY_AT}
+        """加空格是便于分开"""
+        self.wordDict = {StringKeyUtils.STR_INDICATE_TALK: " " + StringKeyUtils.STR_REPLACE_KEY_TALK + " ",
+                         StringKeyUtils.STR_INDICATE_PIC: " " + StringKeyUtils.STR_REPLACE_KEY_PIC + " ",
+                         StringKeyUtils.STR_INDICATE_LINK: " " + StringKeyUtils.STR_REPLACE_KEY_LINK + " ",
+                         StringKeyUtils.STR_INDICATE_BLOCK: " " + StringKeyUtils.STR_REPLACE_KEY_BLOCK + " ",
+                         StringKeyUtils.STR_INDICATE_ELEMENT: " " + StringKeyUtils.STR_REPLACE_KEY_ELEMENT + " ",
+                         StringKeyUtils.STR_INDICATE_AT: " " + StringKeyUtils.STR_REPLACE_KEY_AT + " "}
 
     def process(self, df):
 

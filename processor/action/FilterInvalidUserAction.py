@@ -20,6 +20,7 @@ class FilterInvalidUserAction(BasicAction):
         """如果是社区机器人，那么用于名字在列表当中，
             如果是无效的用户，那么名字为na
         """
+        self.check_input()
 
         # 去除已经删除的用户
         df.dropna(subset=[self.targetCol], inplace=True)
@@ -32,4 +33,4 @@ class FilterInvalidUserAction(BasicAction):
         return df
 
     def check_input(self):
-        assert self.newCols.__len__() == 1
+        assert self.newCols.__len__() == 0
